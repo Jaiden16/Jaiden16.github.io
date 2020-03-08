@@ -26,7 +26,7 @@ class Blog  extends React.Component{
             <ul>{
                 posts.map(post =>{
                     return (
-                        <li>
+                        <li key = {post.id}>
                             <Link to = {`/Blog/posts/${post.id}`}>{post.title}</Link>
                         </li>
                     )

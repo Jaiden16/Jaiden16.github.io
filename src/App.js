@@ -20,7 +20,6 @@ function App() {
         <Link to = '/Skills'>Skills</Link>{" "}
         {/* <Link to = '/Posts'>Posts</Link> */}
       </nav>
-      {/* <h1>Welcome To My Website</h1> */}
       
       <Switch>
         <Route exact path = "/" component = {Home}/>
