@@ -6,7 +6,7 @@ const Home = () =>{
         <div>
             <h1>Welcome</h1>
             <h2>Jonathan Fagan</h2>
-            <p>Game Dev / Web Dev</p>
+            <p>Game Dev / Web Devloper</p>
             <img 
             src = {pic}
             alt = "my pic"
