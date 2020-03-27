@@ -1,0 +1,43 @@
+#MenuLink{
+    grid-column-start: 1;
+    /* position: fixed;
+    z-index: 1;
+    left: 300px; */
+}
+
+#home_component{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 100vh;
+    /* border: 1px solid red; */
+}
+
+
+
+#image_wrapper{
+    text-align: right;
+    grid-column-start: 2;
+}
+
+
+#background{
+    position: relative;
+    /* top: 0px; */
+    /* right:-653px; */
+    animation-name: fall;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes unhide{
+    from{ visibility: 0%}
+    to{visibility: 100%}
+}
+
+
+@keyframes fall{
+    from{transform: translatey(-120px)}
+    to{
+        transform: translatey(150px)
+    }
+}
