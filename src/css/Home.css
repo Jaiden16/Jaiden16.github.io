@@ -15,15 +15,16 @@
 
 
 #image_wrapper{
-    text-align: right;
+    /* text-align: right; */
     grid-column-start: 2;
 }
 
 
 #background{
-    position: relative;
+    /* position: relative; */
     /* top: 0px; */
     /* right:-653px; */
+    justify-self: end;
     animation-name: fall;
     animation-duration: 10s;
     animation-fill-mode: forwards;
@@ -41,3 +42,16 @@
         transform: translatey(150px)
     }
 }
+
+
+
+
+
+
+/* @media screen and (max-width:575px) and ( min-width: 500px){
+    #background{
+        right: 5px;
+    }
+} */
+
+

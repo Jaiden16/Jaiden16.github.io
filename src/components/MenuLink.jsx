@@ -8,16 +8,25 @@ function MenuLink(props) {
     return (
         <div className="MenuLink" hidden={props.navbar_hidden} >
             <img
-                id = "logo"
+                id="logo"
                 src="./Jonathan.png"
                 alt="broken pic"
                 width="100%"
             />
-            <div id = "text">
-                <button><Link to='/About'>About</Link></button>
-                {/* <button><Link to='/Blog'>Blog</Link></button> */}
-                <button><Link to='/Skills'>Skills</Link></button>
-                <button><Link to='/Projects'>Projects</Link></button>
+            <div id="text">
+                <div className="button" >
+
+                    <Link className="link" to='/About'>About</Link>
+                    {/* <a className = "about" href = "/About">About</a> */}
+                </div>
+
+                <div>
+                    <Link className="link" to='/Skills'>Skills</Link>
+                </div>
+                
+                <div>
+                    <Link className ="link" to='/Projects'>Projects</Link>
+                </div>
             </div>
 
         </div>

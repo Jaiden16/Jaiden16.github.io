@@ -50,14 +50,14 @@ class Home extends Component {
     
                 </div>
     
-                <div id="image_wrapper">
+                {/* <div id="image_wrapper"> */}
                     <img
                         id="background"
                         src="/building_new.png"
                         alt="broken pic"
                         onAnimationEnd = {this.handleAnimationEnd}
                     />
-                </div>
+                {/* </div> */}
     
             </div>
     
