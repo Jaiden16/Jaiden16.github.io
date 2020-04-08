@@ -23,9 +23,9 @@ function MenuLink(props) {
                 <div>
                     <Link className="link" to='/Skills'>Skills</Link>
                 </div>
-                
+
                 <div>
-                    <Link className ="link" to='/Projects'>Projects</Link>
+                    <Link className="link" to='/Projects'>Projects</Link>
                 </div>
             </div>
 

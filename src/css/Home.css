@@ -9,6 +9,7 @@
     display: grid;
     grid-template-columns: 50% 50%;
     height: 100vh;
+    overflow: hidden;
     /* border: 1px solid red; */
 }
 
