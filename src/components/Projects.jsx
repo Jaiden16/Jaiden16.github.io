@@ -19,25 +19,24 @@ class Projects extends React.Component {
 
     render() {
         return (
-            <div className = "projects-component">
-                <div id="projects-background">
-                    <img
-                        id="select-bg"
-                        src={pic}
-                        alt="broken pic"
-                    />
-                    <div id="projects-container">
-                        <NavBar id="navbar" />
-
-
-                    </div>
+            <div className="projects-component">
+                <NavBar id="navbar" />
+                <h1>PROJECTS</h1>
+                <div id="projects-div">
+                    <ul className="flex-container">
+                        <li className="flex-item">1</li>
+                        <li className="flex-item">2</li>
+                    </ul>
                 </div>
-
             </div>
-
         )
     }
 }
+
+
+
+
+
 
 
 

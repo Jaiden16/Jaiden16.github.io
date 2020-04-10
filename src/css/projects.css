@@ -1,22 +1,41 @@
-.projects-component{
-    display: grid;
-    grid-template-columns: 50% 50%;
-    
+#navbar, h1{
+    text-align: center;
 }
 
-#projects-background{
-    width: 100vw;
-    height: 100vh;
-    grid-column-start: 1;
+h1, .flex-item{
+    color: white
 }
 
-#select-bg{
-    width: 100%;
-    height: 100%;
-    display: inline-block;
+.flex-container{
+
+    /*First create a flex layout contest  */
+    display: flex;
+
+    /* Then we define the flow direction
+    and if we allow the items to wrap
+   
+    *Remember this is the same as:
+    *flex-direction: row;
+    *flex-wrap: wrap;
+    */
+    flex-flow: row wrap;
+
+
+    /* Then we define how the remaining space is distributed */
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+    list-style: none;
 }
 
-#projects-container{
-    position: fixed;
-    z-index: 1;
+.flex-item{
+    background-color: lightslategrey;
+    padding: 5px;
+    width: 200px;
+    height: 150px;
+    margin-top: 10px;
+    line-height: 150px;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
 }
