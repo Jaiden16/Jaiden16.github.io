@@ -27,7 +27,7 @@
     /* right:-653px; */
     justify-self: end;
     animation-name: fall;
-    animation-duration: 10s;
+    animation-duration: 5s;
     animation-fill-mode: forwards;
 }
 
