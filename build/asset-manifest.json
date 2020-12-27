@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.41c620cc.chunk.css",
+    "main.js": "/static/js/main.5c1d0dda.chunk.js",
+    "main.js.map": "/static/js/main.5c1d0dda.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.b9866801.js",
+    "runtime-main.js.map": "/static/js/runtime-main.b9866801.js.map",
+    "static/js/2.2b1a9082.chunk.js": "/static/js/2.2b1a9082.chunk.js",
+    "static/js/2.2b1a9082.chunk.js.map": "/static/js/2.2b1a9082.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.74b7038974daf3d1710e15c7f051c4e2.js": "/precache-manifest.74b7038974daf3d1710e15c7f051c4e2.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.41c620cc.chunk.css.map": "/static/css/main.41c620cc.chunk.css.map",
+    "static/js/2.2b1a9082.chunk.js.LICENSE": "/static/js/2.2b1a9082.chunk.js.LICENSE",
+    "static/media/IMG_0158.jpg": "/static/media/IMG_0158.1ce113a2.jpg",
+    "static/media/c++_logo.png": "/static/media/c++_logo.6a381fc0.png",
+    "static/media/csharp.png": "/static/media/csharp.6eed9079.png",
+    "static/media/github-logo.png": "/static/media/github-logo.482dce8f.png",
+    "static/media/nodejs.png": "/static/media/nodejs.85458a67.png",
+    "static/media/postgres.png": "/static/media/postgres.ea92d658.png",
+    "static/media/react_logo.png": "/static/media/react_logo.454acbc3.png",
+    "static/media/redux_logo.png": "/static/media/redux_logo.c8f44df3.png",
+    "static/media/sprite5.png": "/static/media/sprite5.819ad68d.png",
+    "static/media/unity2.png": "/static/media/unity2.948483a5.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b9866801.js",
+    "static/js/2.2b1a9082.chunk.js",
+    "static/css/main.41c620cc.chunk.css",
+    "static/js/main.5c1d0dda.chunk.js"
+  ]
+}
