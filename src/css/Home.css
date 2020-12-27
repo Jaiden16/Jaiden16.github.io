@@ -13,36 +13,14 @@
     /* border: 1px solid red; */
 }
 
-
-
-#image_wrapper{
-    /* text-align: right; */
-    grid-column-start: 2;
+#left{
+    background-color: white;
+}
+#right{
+    background-color: blue;
 }
 
 
-#background{
-    /* position: relative; */
-    /* top: 0px; */
-    /* right:-653px; */
-    justify-self: end;
-    animation-name: fall;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
-}
-
-@keyframes unhide{
-    from{ visibility: 0%}
-    to{visibility: 100%}
-}
-
-
-@keyframes fall{
-    from{transform: translatey(-120px)}
-    to{
-        transform: translatey(150px)
-    }
-}
 
 
 

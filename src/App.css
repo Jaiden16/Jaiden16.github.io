@@ -1,3 +1,17 @@
 .App {
   /* overflow: hidden; */
 }
+.Application{
+  display:grid;
+  grid-template-columns: 26% 74%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#Menu{
+  background-color: white;
+}
+
+#Content{
+  background-color: black;
+}

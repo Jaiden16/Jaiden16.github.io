@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
-import { Route, Switch } from 'react-router-dom'
+import { Route, Switch} from 'react-router-dom'
+import NavBar from './components/NavBar'
+import MenuLink from './components/MenuLink'
 import './App.css';
 
 
@@ -20,32 +22,32 @@ class App extends Component {
     }
   }
 
-  unhideNavbar = ()=>{
-    this.setState({
-      navbar_hidden: false
-    })
-
-  }
-  
-  renderHome =(routeprops) =>{
-    return(
-      <Home unhideNavbar = {this.unhideNavbar}/>
+  renderHome = (routeprops) => {
+    return (
+      <Home unhideNavbar={this.unhideNavbar} />
     )
 
   }
 
   render() {
     return (
-      <div className="App">
-        {/* <NavBar id="navbar" navbar_hidden = {this.state.navbar_hidden} /> */}
+      <div className="Application">
+        <div id="Menu">
+          <MenuLink/>
 
-        <Switch>
-          <Route exact path="/" render={this.renderHome}/>
-          <Route path="/About" component={About} />
-          <Route path="/Blog" component={Blog} />
-          <Route path="/Skills" component={Skills} />
-          <Route path="/Projects" component={Projects} />
-        </Switch>
+        </div>
+
+        <div id="Content">
+
+          <Switch>
+            <Route exact path="/" render={this.renderHome} />
+            <Route path="/About" component={About} />
+            <Route path="/Blog" component={Blog} />
+            <Route path="/Skills" component={Skills} />
+            <Route path="/Projects" component={Projects} />
+          </Switch>
+        </div>
+
 
 
       </div>
